@@ -1,8 +1,8 @@
 {
   "name":"handover-system",
-  "version":"1.0.0",
+  "version":"1.1.0",
   "private":true,
-  "scripts":{"start":"node server.js","dev":"node server.js"},
+  "scripts":{"start":"node gateway.js","dev":"node gateway.js"},
   "engines":{"node":">=22"},
   "dependencies":{"bcryptjs":"^2.4.3","better-sqlite3":"^13.0.1","cors":"^2.8.5","express":"^5.1.0","jsonwebtoken":"^9.0.2","multer":"^2.2.0","xlsx":"^0.18.5"}
 }
